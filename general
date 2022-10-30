@@ -1,0 +1,2 @@
+- AutoPass HPE License Server
+$ sudo service hpLicenServer {start|stop|restart|status}
