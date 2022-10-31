@@ -1,2 +1,4 @@
 - AutoPass HPE License Server
 $ sudo service hpLicenServer {start|stop|restart|status}
+- Delete a broken symlink file (Go to the directory where the file exists and run the following command)
+$ find . -xtype l -delete 
