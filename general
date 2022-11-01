@@ -1,6 +1,9 @@
 - AutoPass HPE License Server
 $ sudo service hpLicenServer {start|stop|restart|status}
+======================================Docker=============================================================
 - Grant root access to docker user
 $ sudo usermod -aG docker ${USER}
+$ sudo chmod -R 777 /var/run/docker.sock
+======================================Ubuntu===============================================================
 - Delete a broken symlink file (Go to the directory where the file exists and run the following command)
 $ find . -xtype l -delete 
